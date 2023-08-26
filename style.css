@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    font-family : Arial;
+    border : border-box;
+}
+.navbar
+{ display:flex;
+    background-color: #0f1111;
+    height:60px;
+    color:white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo
+{
+    background-image: url(amazon_logo.png);
+    height:50px;
+    width:113px;
+    background-size:cover ;
+
+}
+.border
+{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.logo-india
+{
+    display:flex;
+}
+    
+.deliver
+{
+    text-align: center;
+    align-items: center;
+
+}
+.add-one
+{  
+    margin-left: 15px;
+    color:#CCCCCC;
+    font-size: 12px;
+
+}
+.add-two
+{
+    font-size: 14px; 
+    margin-left: 5px;
+}
+.nav-search
+{
+    display:flex
+}
+.nav-search
+{
+    display:flex;
+     justify-content:space-evenly; 
+    background-color: pink;
+    width:620px;
+    height:40px;
+    border-radius: 4px;
+}
+.select
+{
+    background-color: #f3f3f3;
+    width:50px;
+    text-align:center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search-input
+{
+    width: 100%;
+    font-size: 1 rem;
+    border:none;
+}
+.search-icon
+{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+}
+.first-text
+{
+    font-size: 0.8rem;
+    color:#ffffff;
+
+}
+.second-text
+{
+    font-size: 1rem;
+    color:#ffffff;
+}
+.cart-logo i
+{
+    font-size: 30px;
+
+}
+.cart-logo
+{
+    font-size: 0.85rem;
+}
+
+.panel
+{ 
+    display: flex;
+    height:40px;
+    background-color: #0F1111;
+    color:#ffffff;
+    align-items: center;
+    font-size: 16px;
+    /* justify-content: space-evenly; */
+    
+    
+}
+
+.ic_all
+{
+    display: flex;
+    margin-left: 20px;
+}
+.items
+
+{
+  
+    display: flex;
+}
+.p1,.p2,.p3,.p4,.p5
+{
+    margin-left: 20px;
+
+}
+
+.hero-section
+{
+    background-image: url(hero_image.jpg);
+     height: 270px; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.hero-msg
+{
+    background-color: white;
+    color:black;
+    height:40px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:80%;
+    margin-bottom: 25px;
+
+}
+.hero-msg a{
+    color:#007185;
+}
+.shop-section
+{ 
+    background-color: #e2e7e6;
+    display:flex;
+    justify-content: space-evenly;
+}
+.box
+{
+    height: 350px;
+    width: 22%;
+    border: 1px solid white;
+    background-color: white;
+}
+.heading
+{
+    padding-left: 20px;
+}
+.img1
+{ 
+    background-image: url(box1_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:220px;
+    width: 85%;
+}
+.box a{
+    text-decoration:none;
+    padding-left: 20px;
+    /* margin-bottom: 1rem; */
+
+
+}
+.shopsy
+{
+    background-color: #e2e7e6;
+    margin-bottom: 20px;
+}
+.img2
+{ 
+    background-image: url(box2_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img3
+{ 
+    background-image: url(box3_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img4
+{ 
+    background-image: url(box4_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img5{
+    background-image: url(Fuji_dash_BTS_1X._SY304_CB630084689_.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img6{
+    background-image: url(box7_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img7{
+    background-image: url(XCM_CUTTLE_1469391_2584745_379x304_1X_en_US._SY304_CB609304299_.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.img8{
+    background-image: url(box8_image.jpg);
+    background-size: cover;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+    height:250px;
+    width: 85%;
+}
+.f-panel1
+{
+    height:60px;
+    color:white;
+    background-color:  #37475a;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.f-panel2
+{
+    height:300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color:#dddddd ;
+}
+.f-panel3
+{
+   
+    background-color: #222f3d;
+    
+    
+   height: 120px;
+   border-top: 1px solid white;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+
+
+}
+.f-panel4
+{ padding-top: 20px;
+    background-color: #131A22;
+    color:white;
+    height:70px;
+    text-align: center;
+}
